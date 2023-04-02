@@ -1,0 +1,38 @@
+.activity {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 15px;
+    padding: 40px 35px;
+    align-items: center;
+    width: 30vw;
+  }
+  .activity-title {
+    align-self: start;
+  }
+  .activity-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .activity-image {
+    width: 250px;
+    height: 250px;
+  }
+  .main-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .lorem {
+    color: grey;
+  }
+  .contact-section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .button {
+    padding: 5px 10px 5px 10px;
+    border: 1px solid black;
+  }
